@@ -6,9 +6,9 @@ from PySide2.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushB
 class Example(QWidget):
     def __init__(self):
         super().__init__()
-        self.initUI()
+        self.init_iu()
 
-    def initUI(self):
+    def init_iu(self):
         layout = QVBoxLayout()
 
         label = QLabel("I am label")

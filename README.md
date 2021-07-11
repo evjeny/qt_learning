@@ -5,7 +5,7 @@
 [References](https://doc.qt.io/qtforpython/tutorials/index.html)
 
 Plan:
-1. [ ] Buttons, labels, pictures
+1. [x] Layouts, buttons, labels, pictures
 2. [ ] Notifications
 3. [ ] Callbacks
 4. [ ] Screen transitions
