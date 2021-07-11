@@ -2,6 +2,8 @@
 
 ***
 
+[References](https://doc.qt.io/qtforpython/tutorials/index.html)
+
 Plan:
 1. [ ] Buttons, labels, pictures
 2. [ ] Notifications
