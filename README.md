@@ -6,7 +6,7 @@
 
 Plan:
 * [x] Layouts, buttons, labels, pictures
-* [ ] Notifications, callbacks
+* [x] Notifications, callbacks
 * [ ] Screen transitions
 * [ ] Application thread, custom events in main thread
 * [ ] Qt designer
