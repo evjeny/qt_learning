@@ -7,7 +7,7 @@
 Plan:
 * [x] Layouts, buttons, labels, pictures
 * [x] Notifications, callbacks
-* [ ] Screen transitions
+* [x] Screen transitions
 * [ ] Application thread, custom events in main thread
 * [ ] Qt designer
 * [ ] Export app to binary file
