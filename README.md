@@ -9,5 +9,5 @@ Plan:
 * [x] Notifications, callbacks
 * [x] Screen transitions
 * [x] Application thread, custom events in main thread
-* [ ] Qt designer
+* [x] Qt designer
 * [ ] Export app to binary file
