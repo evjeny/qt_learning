@@ -10,4 +10,4 @@ Plan:
 * [x] Screen transitions
 * [x] Application thread, custom events in main thread
 * [x] Qt designer
-* [ ] Export app to binary file
+* [x] Export app to binary file
