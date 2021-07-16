@@ -1,16 +1,15 @@
 import sys
 from random import randint
-from PySide2.QtCore import QFile, QCoreApplication, Qt
-from PySide2.QtUiTools import QUiLoader
-from PySide2.QtWidgets import QApplication, QWidget, QVBoxLayout
+from PyQt5.QtCore import QFile, QCoreApplication, Qt
+from PyQt5 import uic
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout
 
 
 def load_ui_widget(path: str):
     ui_file = QFile(path)
     ui_file.open(QFile.ReadOnly)
 
-    loader = QUiLoader()
-    return loader.load(ui_file)
+    return uic.loadUi(ui_file)
 
 
 class Example(QWidget):

@@ -1,5 +1,5 @@
 import sys
-from PySide2.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton, QMessageBox, QDialog
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton, QMessageBox, QDialog
 
 
 class CustomDialog(QDialog):

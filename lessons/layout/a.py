@@ -1,6 +1,6 @@
 import sys
-from PySide2.QtGui import QPixmap
-from PySide2.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton
+from PyQt5.QtGui import QPixmap
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton
 
 
 class Example(QWidget):

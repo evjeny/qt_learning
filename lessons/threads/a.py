@@ -1,13 +1,13 @@
 import sys
 import time
 import random
-from PySide2.QtCore import QObject, QThread, Signal
-from PySide2.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton
+from PyQt5.QtCore import QObject, QThread, pyqtSignal
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QPushButton
 
 
 class RandomProcess(QObject):
-    finished = Signal()
-    state = Signal(bool)
+    finished = pyqtSignal()
+    state = pyqtSignal(bool)
 
     def run(self):
         for _ in range(10):
